@@ -1,0 +1,36 @@
+{
+  "name": "authentication---nodejs",
+  "version": "1.0.0",
+  "description": "Authentication API using Nodejs with all functionalities like registration, login, forgot password, update password, reset password etc. ",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js",
+    "dev": "nodemon index.js"
+  },
+  "keywords": [
+    "API",
+    "Nodejs",
+    "Bcrypt",
+    "Nodemailer",
+    "JWT",
+    "Token"
+  ],
+  "author": "Rutvik Makvana",
+  "license": "ISC",
+  "dependencies": {
+    "bcrypt": "^5.1.0",
+    "cookie-parser": "^1.4.6",
+    "crypto": "^1.0.1",
+    "dotenv": "^16.1.4",
+    "express": "^4.18.2",
+    "express-async-handler": "^1.2.0",
+    "jsonwebtoken": "^9.0.0",
+    "mongoose": "^7.2.3",
+    "morgan": "^1.10.0",
+    "nodemailer": "^6.9.3"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.22"
+  }
+}
